@@ -8,12 +8,69 @@
     <link rel="stylesheet" href="css\styles.css">
 </head>
 
+<body>
+    <main>
+          <!--Section Form-->
+    <section>
+          <header>
+            <h1>Kalkulator BMI</h1>
+        <div>
+            </header>
 
+            <article>
+            <p>Berat badan ideal adalah impian semua orang
+            berat badan ideal juga menandakan kondisi tubuh yang sehat.</p>
+            Yuk, hitung sekarang di BMI Kalkulator
+            </article>
+        </div>
+        
+        <form class="color-section">
+            <div>
+                <label for="berat-badan">Berat Badan:</label>
+                <input id="berat-badan" type="number"/>
+            </div>
 
+            </form>
+           <div>
+               <button onclick="validateForm()">Hitung BMI</button>
+                <button>Reset</button>
+           </div>
+          <div>
+            <header>
+                <h2>Form Information</h2>
+            </header>
+    
+            <article>
+                <p>Hasil perhitungan Kalkulator BMI ini hanya data digunakan sebagai informasi mengenai berat badan. </p>
+            </article>
+        </div>
+     </section>
 
+    <!--Section Result-->
+    <section>
+        <header>
+            <h1>Hasil</h1>
+        </header>
+        
+       <!-- Hasil Kalkulasi-->
+        <div class="color-section text-center">
+            <h2>Hasil Kalkulasi:</h2>
 
-
-
-
+            <p id="result">24.5</p>
+        </div>
+    
+        <!--Info dari hasil-->
+        <article>
+            <p>Selalu konsultasikan kepada tenaga medis profesional untuk mendapatkan hasil yang lebih akurat, 
+                informasi kesehatan, dan tindakan medis yang tepat</p>
+        </article>
+      </section>
+    </main>
+  
+    <footer>
+        <span>Made by Naufal</span>
+    </footer>
+<script> src="js\script.js"</script>
+</body>
 
 </html>
